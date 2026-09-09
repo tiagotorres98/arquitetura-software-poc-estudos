@@ -1,0 +1,21 @@
+nav{
+  position:absolute;
+  margin-top: 130px;
+  margin-left: 33%;
+  margin-right: 33%;
+  width:33%;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display:inline-block;
+  padding:10px;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color: #28a9da;
+}
