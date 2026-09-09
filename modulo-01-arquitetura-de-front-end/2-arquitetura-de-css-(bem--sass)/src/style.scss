@@ -1,0 +1,49 @@
+/**
+ * Bloco: classe (O componente principal)
+ * Filho/Elemento: classe__filho (Parte que depende do bloco)
+ * Modificador: classe--modificador (Mudança de estado ou visual do bloco)
+ * Modificador do Filho: classe__filho--modificador (Mudança de estado ou visual do filho)
+ */
+
+$color-border:black;
+$color-title:white;
+$color-primary:blue;
+$color-secundary:red;
+$color-green:green;
+
+.card {
+  border: solid 1px $color-border;
+  min-width: 300px;
+  max-width: 400px;
+  position: relative;
+  height: 150px;
+  display: inline-block;
+  margin: 10px;
+
+  .card__titulo {
+    text-align: center;
+    color: $color-title;
+  }
+
+  .card__button {
+    width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 110px;
+  }
+
+}
+
+.card--blue {
+  background-color: $color-primary;
+}
+
+.card--red {
+  background-color: $color-secundary;
+}
+
+.card--green {
+  background-color: $color-green;
+}
